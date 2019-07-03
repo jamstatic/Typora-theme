@@ -1,6 +1,7 @@
 # Files to exclude when creating archive
-README.md export-ignore
 LICENSE export-ignore
+README.md export-ignore
+screenshot.png export-ignore
 
 # Auto detect text files and perform LF normalization
 * text=auto
