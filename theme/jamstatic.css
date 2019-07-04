@@ -35,6 +35,8 @@ body {
 
 a {
     color: #00c7b7;
+    font-weight: 900;
+    text-decoration: none;
 }
 h1,
 h2,
@@ -43,8 +45,8 @@ h4,
 h5,
 h6 {
     position: relative;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1.44rem;
+    margin-bottom: 0.2rem;
     font-weight: bold;
     line-height: 1.4;
     cursor: text;
@@ -82,16 +84,12 @@ h6 code {
     font-size: inherit;
 }
 h1 {
-    padding-bottom: .3em;
     font-size: 2.25em;
     line-height: 1.2;
-    border-bottom: 1px solid #eee;
 }
 h2 {
-   padding-bottom: .3em;
     font-size: 1.75em;
     line-height: 1.225;
-    border-bottom: 1px solid #eee;
 }
 h3 {
     font-size: 1.5em;
@@ -145,9 +143,9 @@ ol:last-child {
     margin-bottom: 0;
 }
 blockquote {
-    border-left: 4px solid #00c7b7;
+    border-left: .5rem solid #00c7b7;
     padding: 0 15px;
-    color: #777777;
+    font-style: italic;
 }
 blockquote blockquote {
     padding-right: 0;
@@ -209,8 +207,9 @@ tt {
 }
 
 code {
-    background-color: #f3f4f4;
-    padding: 0 2px 0 2px;
+    background-color: #eef;
+    border: 0;
+    padding: 1px 5px;
 }
 
 .md-fences {
