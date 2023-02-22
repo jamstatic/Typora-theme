@@ -1,5 +1,5 @@
 :root {
-    --side-bar-bg-color: #4a21cc;
+    --side-bar-bg-color: #f2f7ff;
     --control-text-color: #52525b;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 a {
-    color: #2F90A7;
+    color: #300a66;
     font-weight: 900;
     text-decoration: none;
 }
@@ -103,7 +103,7 @@ h5 {
 }
 h6 {
     font-size: 1em;
-    color: #777;
+    color: #52525b;
 }
 p,
 blockquote,
@@ -121,7 +121,7 @@ hr {
     height: 2px;
     padding: 0;
     margin: 16px 0;
-    background-color: #e7e7e7;
+    background-color: #374151;
     border: 0 none;
     overflow: hidden;
     box-sizing: content-box;
@@ -143,7 +143,7 @@ ol:last-child {
     margin-bottom: 0;
 }
 blockquote {
-    border-left: .3rem solid #C9DAF1;
+    border-left: .3rem solid #b1a3cc;
     padding: 0 15px;
     font-style: italic;
 }
@@ -155,24 +155,24 @@ table {
     word-break: initial;
 }
 table tr {
-    border-top: 1px solid #dfe2e5;
+    border-top: 1px solid #b1a3cc;
     margin: 0;
     padding: 0;
 }
 table tr:nth-child(2n),
 thead {
-    background-color: #f8f8f8;
+    background-color: #b1a3cc;
 }
 table tr th {
     font-weight: bold;
-    border: 1px solid #dfe2e5;
+    border: 1px solid #b1a3cc;
     border-bottom: 0;
     text-align: left;
     margin: 0;
     padding: 6px 13px;
 }
 table tr td {
-    border: 1px solid #dfe2e5;
+    border: 1px solid #b1a3cc;
     text-align: left;
     margin: 0;
     padding: 6px 13px;
@@ -192,7 +192,7 @@ table tr td:last-child {
 
 .code-tooltip {
     box-shadow: 0 1px 1px 0 rgba(0,28,36,.3);
-    border-top: 1px solid #eef2f2;
+    border-top: 1px solid #b1a3cc;
 }
 
 .md-fences,
@@ -241,10 +241,10 @@ code {
 	padding: 1rem;
     font-size: 85%;
     line-height: 1.45;
-    background-color: #f7f7f7;
+    background-color: #f2f7ff;
     border: 0;
     border-radius: 3px;
-    color: #777777;
+    color: #52525b;
     margin-top: 0 !important;
 }
 
@@ -253,7 +253,7 @@ code {
 }
 
 .md-mathjax-midline {
-    background: #fafafa;
+    background: #fff;
 }
 
 #write>h3.md-focus:before{
@@ -281,7 +281,7 @@ code {
 }
 
 .md-tag {
-    color: #a7a7a7;
+    color: #52525b;
     opacity: 1;
 }
 
