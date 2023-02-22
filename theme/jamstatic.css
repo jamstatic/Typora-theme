@@ -1,15 +1,15 @@
 :root {
-    --side-bar-bg-color: #fafafa;
-    --control-text-color: #777;
+    --side-bar-bg-color: #4a21cc;
+    --control-text-color: #52525b;
 }
 
-@include-when-export url(https://fonts.loli.net/css?family=Roboto:400italic,700italic,700,400&subset=latin,latin-ext);
+@include-when-export url(https://fonts.loli.net/css?family=Poppins:400italic,700italic,700,400&subset=latin,latin-ext);
 
 @font-face {
-    font-family: 'Roboto';
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: normal;
-    src: local('Roboto'),url('./jamstatic/roboto.woff') format('woff');
+    src: local('Poppins-Regular'), url('./jamstatic/Poppins-Regular.woff') format('woff');
 }
 
 html {
@@ -17,19 +17,19 @@ html {
 }
 
 body {
-    font-family: Roboto,Helvetica,Arial;
-    color: #000;
+    font-family: Poppins, system-ui, sans-serif;
+    color: #52525b;
     line-height: 1.5;
 }
 
 #write {
     max-width: 860px;
-  	margin: 0 auto;
-  	padding: 30px;
+    margin: 0 auto;
+    padding: 30px;
     padding-bottom: 100px;
 }
 #write > ul:first-child,
-#write > ol:first-child{
+#write > ol:first-child {
     margin-top: 30px;
 }
 
@@ -102,7 +102,7 @@ h5 {
     font-size: 1em;
 }
 h6 {
-   font-size: 1em;
+    font-size: 1em;
     color: #777;
 }
 p,
@@ -198,16 +198,16 @@ table tr td:last-child {
 .md-fences,
 code,
 tt {
-  border: 0;
-  background-color: #fff;
-  padding: 0;
-  font-size: 1em;
+    border: 0;
+    background-color: #fff;
+    padding: 0;
+    font-size: 1em;
 }
 
 code {
-  border: 0;
-  background-color: #fff;
-  padding: 0;
+    border: 0;
+    background-color: #fff;
+    padding: 0;
 }
 
 .md-fences {
@@ -217,9 +217,8 @@ code {
     padding-bottom: 6px;
 }
 
-
 .md-task-list-item > input {
-  margin-left: -1.3em;
+    margin-left: -1.3em;
 }
 
 @media print {
